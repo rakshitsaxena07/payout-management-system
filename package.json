@@ -1,0 +1,15 @@
+{
+  "name": "payout-system",
+  "version": "1.0.0",
+  "description": "User Payout Management System — LLD assignment implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  }
+}
